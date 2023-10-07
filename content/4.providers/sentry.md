@@ -4,6 +4,20 @@ title: Sentry
 
 # Sentry
 
-::alert{type="info"}
-This documentation will be available soon.
-::
+## Integrations
+
+:badge[Identity Governance]
+
+## Credentials
+
+This provider requires an internal integration with the *Organization Read* permission.
+
+|Name|Description|
+|---|---|
+| Token | Settings -> Developer Settings -> Internal Integration |
+
+## Configs
+
+|Name|Description|
+|---|---|
+| Organization Slug | Settings -> General Settings |
