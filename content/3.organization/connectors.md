@@ -1,0 +1,29 @@
+---
+title: Connectors
+---
+
+# Connectors
+
+Connectors are configured to retrieve data from a specific provider.
+
+## Information
+
+|Section|Description|
+|---|---|
+| Credentials | This section must be configured with sensitive information such as API keys and secrets. These values are encrypted in our database and are only decrypted by workers responsible to retrieve data from the provider. |
+| Configurations | These values are required for some providers e.g., domain, service ID, etc. |
+| Filters | These values allow you to filter results to retrieve only a subset of data according to your business needs. |
+
+## Reconciliation
+
+Each connector provides reconciliation options that govern the actions Kantoku takes with the retrieved data.
+
+|Option|Description|
+|---|---|
+| None | The data will be retrieved, and no further actions will be taken. |
+| Partial | The data will be retrieved and linked to existing resources in Kantoku. For instance, if a user with the same email address already exists in Kantoku, they will be linked together. |
+| Complete | Similar to partial, but resources will be generated in Kantoku automatically on your behalf. For instance, if a user doesn't exist, it will be created in Kantoku. Another example is the initiation of a request for approval for a privilege that has already been granted to a user on the provider retrieved data. |
+
+::alert{type="info"}
+We advise starting with a partial reconciliation setup. This will reconcile the retrieved data, but no identities, users, privileges, or user privileges will be created. This step allows for the exclusion of specific identities, privileges and users, if needed. After review, you should enable the complete reconciliation feature by editing the connector settings.
+::
