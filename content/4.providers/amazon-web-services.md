@@ -1,8 +1,8 @@
 ---
-title: AWS IAM
+title: Amazon Web Services
 ---
 
-# AWS Identity and Access Management (IAM)
+# Amazon Web Services (AWS)
 
 ## Integrations
 

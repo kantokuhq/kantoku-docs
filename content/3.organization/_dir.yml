@@ -1,3 +1,4 @@
 title: Organization
 icon: heroicons-outline:building-office
 redirect: /organization/overview
+navigation.redirect: /organization/overview

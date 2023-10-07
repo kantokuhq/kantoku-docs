@@ -1,3 +1,4 @@
 title: Asset Management
 icon: heroicons-outline:circle-stack
 redirect: /asset-management/overview
+navigation.redirect: /asset-management/overview
