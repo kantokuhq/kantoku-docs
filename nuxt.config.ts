@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   ],
 
   site: {
-    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://kantoku.io/docs',
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://kantoku.io',
     name: 'Kantoku',
     description: 'Empowering organizations with seamless information security processes and effective oversight.',
     defaultLocale: 'en',
