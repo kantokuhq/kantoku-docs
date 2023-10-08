@@ -1,5 +1,6 @@
 ---
 title: GitHub
+sitemap: true
 ---
 
 # GitHub

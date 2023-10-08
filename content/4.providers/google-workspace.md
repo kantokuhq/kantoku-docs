@@ -1,5 +1,6 @@
 ---
 title: Google Workspace
+sitemap: true
 ---
 
 # Google Workspace

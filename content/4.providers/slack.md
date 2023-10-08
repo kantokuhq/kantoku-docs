@@ -1,5 +1,6 @@
 ---
 title: Slack
+sitemap: true
 ---
 
 # Slack

@@ -1,5 +1,6 @@
 ---
 title: MongoDB Atlas
+sitemap: true
 ---
 
 # MongoDB Atlas

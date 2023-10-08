@@ -1,5 +1,6 @@
 ---
 title: Atlassian
+sitemap: true
 ---
 
 # Atlassian

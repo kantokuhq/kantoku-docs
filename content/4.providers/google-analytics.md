@@ -1,5 +1,6 @@
 ---
 title: Google Analytics
+sitemap: true
 ---
 
 # Google Analytics

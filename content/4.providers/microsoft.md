@@ -1,5 +1,6 @@
 ---
 title: Microsoft
+sitemap: true
 ---
 
 # Microsoft

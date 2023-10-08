@@ -1,5 +1,6 @@
 ---
 title: Amazon Web Services
+sitemap: true
 ---
 
 # Amazon Web Services (AWS)

@@ -1,5 +1,6 @@
 ---
 title: Sentry
+sitemap: true
 ---
 
 # Sentry

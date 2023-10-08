@@ -1,5 +1,6 @@
 ---
 title: AWS Identity Center
+sitemap: true
 ---
 
 # AWS Identity Center

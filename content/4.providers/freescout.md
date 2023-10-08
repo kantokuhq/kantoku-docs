@@ -1,5 +1,6 @@
 ---
 title: FreeScout
+sitemap: true
 ---
 
 # FreeScout

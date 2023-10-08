@@ -3,14 +3,14 @@ export default defineNuxtConfig({
   extends: [
     // https://github.com/nuxt-themes/docus
     '@nuxt-themes/docus',
-
-    // https://github.com/harlan-zw/nuxt-seo-kit
-    'nuxt-seo-kit'
   ],
 
   modules: [
     // https://github.com/nuxt/devtools
-    '@nuxt/devtools'
+    '@nuxt/devtools',
+
+    // https://github.com/harlan-zw/nuxt-seo-kit
+    '@nuxtseo/module'
   ],
 
   plugins: [
@@ -20,13 +20,16 @@ export default defineNuxtConfig({
     }
   ],
 
-  runtimeConfig: {
-    public: {
-      language: 'en',
-      siteName: 'Kantoku',
-      siteDescription: 'Empowering organizations with seamless information security processes and effective oversight.',
-      titleSeparator: '|',
-      trailingSlash: true,
-    }
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://kantoku.io/docs',
+    name: 'Kantoku',
+    description: 'Empowering organizations with seamless information security processes and effective oversight.',
+    defaultLocale: 'en',
+    
+    identity: {
+      type: 'Organization'
+    },
+    twitter: '@kantokuhq',
   },
+
 })
