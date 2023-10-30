@@ -11,14 +11,12 @@
   },
   "devDependencies": {
     "@nuxt-themes/docus": "1.15.0",
-    "@nuxt/devtools": "0.8.4",
+    "@nuxt/devtools": "1.0.0",
     "@nuxt/eslint-config": "0.2.0",
-    "@nuxtseo/module": "2.0.0-beta.35",
-    "@types/node": "20.6.3",
-    "eslint": "8.49.0",
-    "nuxt": "3.7.3"
-  },
-  "dependencies": {
-    "vue-matomo": "4.2.0"
+    "@nuxtseo/module": "2.0.0-beta.39",
+    "@types/node": "20.8.9",
+    "@zadigetvoltaire/nuxt-gtm": "0.0.13",
+    "eslint": "8.52.0",
+    "nuxt": "3.8.0"
   }
 }

@@ -10,14 +10,10 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
 
     // https://github.com/harlan-zw/nuxt-seo-kit
-    '@nuxtseo/module'
-  ],
+    '@nuxtseo/module',
 
-  plugins: [
-    {
-      src: './plugins/vue-matomo.client.js', 
-      ssr: false
-    }
+    // https://github.com/zadigetvoltaire/nuxt-gtm
+    '@zadigetvoltaire/nuxt-gtm'
   ],
 
   site: {
@@ -32,4 +28,18 @@ export default defineNuxtConfig({
     twitter: '@kantokuhq',
   },
 
+  gtm: {
+    id: 'GTM-P8CSVWQ',
+    defer: false,
+    compatibility: false,
+    nonce: 'vifql45uuk',
+    enabled: true,
+    debug: false,
+    loadScript: true,
+    enableRouterSync: true,
+    ignoredViews: [],
+    trackOnNextTick: false,
+    devtools: false,
+  }
+  
 })
