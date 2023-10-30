@@ -32,7 +32,6 @@ export default defineNuxtConfig({
     id: 'GTM-P8CSVWQ',
     defer: false,
     compatibility: false,
-    nonce: 'vifql45uuk',
     enabled: true,
     debug: false,
     loadScript: true,
