@@ -3,11 +3,7 @@ title: WordPress
 sitemap: true
 ---
 
-# SonarCloud
-
-::alert{type="warning"}
-The requests from this provider do not pass through our proxy servers, instead utilizing random IP addresses. There have been issues in communicating with the WordPress API through proxy servers.
-::
+# WordPress
 
 ## Integrations
 
