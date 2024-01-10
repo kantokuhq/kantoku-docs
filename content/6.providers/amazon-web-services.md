@@ -30,5 +30,5 @@ The following AWS tags can be added directly on users to inform Kantoku on some 
 
 |Key|Values|
 |---|---|
-| KantokuExcluded | :badge[true] :badge[false] |
-| KantokuIdentityType | :badge[ServiceAccount] |
+| Excluded | :badge[true] :badge[false] |
+| IdentityType | :badge[ServiceAccount] |
